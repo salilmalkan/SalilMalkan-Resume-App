@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.salil"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="11"/>
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <application
+        android:icon="@drawable/salil_app_logo"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".SMMainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".work.SMWorkActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".work.apps.SMReferLocaliOSActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".work.apps.SMReferLocalAndroidActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".work.apps.SMVYTLActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait" />
+        <activity
+           android:name=".work.apps.SMMinigripActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".work.apps.SMGTBankActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait" />
+        <activity
+           android:name=".work.apps.SMRowRowRowActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait" />
+        <activity
+           android:name=".work.apps.SMPathmappActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".work.apps.SMWakanowActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".work.apps.SMFrenchGirlsActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".work.apps.SMManillaActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".timeline.SMTimelineActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".contact.SMContactActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

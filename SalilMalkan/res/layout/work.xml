@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sm="http://schemas.android.com/apk/res/com.salil"
+    style="@style/SMAppLayoutTheme"
+    android:background="@drawable/bg3"
+    android:orientation="vertical" >
+
+    <com.salil.widgets.SMTopbar
+        android:id="@+id/smtopbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <com.salil.widgets.SMActionbar
+        android:id="@+id/smactionbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:id="@+id/menu_scollview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fadingEdge="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <LinearLayout style="@style/SMGridRow" >
+
+                <com.salil.widgets.SMWorkGridButton
+                    android:id="@+id/work_wakanow_button"
+                    style="@style/SMGridButton"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/wakanow_thumb" />
+
+                <com.salil.widgets.SMWorkGridButton
+                    android:id="@+id/work_referlocalios_button"
+                    style="@style/SMGridButton"
+                    android:src="@drawable/referlocalios_thumb" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SMGridRow" >
+
+                <com.salil.widgets.SMWorkGridButton
+                    android:id="@+id/work_referlocalandroid_button"
+                    style="@style/SMGridButton"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/referlocalandroid_thumb" />
+
+                <com.salil.widgets.SMWorkGridButton
+                    android:id="@+id/work_vytl_button"
+                    style="@style/SMGridButton"
+                    android:src="@drawable/vytl_thumb" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SMGridRow" >
+
+                <com.salil.widgets.SMWorkGridButton
+                    android:id="@+id/work_gtbank_button"
+                    style="@style/SMGridButton"
+                    android:src="@drawable/gtbank_thumb"
+                    android:layout_marginRight="10dp"
+                    />
+
+                <com.salil.widgets.SMWorkGridButton
+                    android:id="@+id/work_minigrip_button"
+                    style="@style/SMGridButton"
+                    android:src="@+drawable/minigrip_thumb" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SMGridRow" >
+
+                <com.salil.widgets.SMWorkGridButton
+                    android:id="@+id/work_rowrowrow_button"
+                    style="@style/SMGridButton"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/rowrowrow_thumb" />
+
+                <com.salil.widgets.SMWorkGridButton
+                    android:id="@+id/work_pathmapp_button"
+                    android:src="@drawable/pathmapp_thumb"
+                    style="@style/SMGridButton"
+                    />
+            </LinearLayout>
+            
+            <LinearLayout style="@style/SMGridRow" >
+
+                <com.salil.widgets.SMWorkGridButton
+                    android:id="@+id/work_frenchgirls_button"
+                    style="@style/SMGridButton"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/frenchgirlsicon" />
+
+                <com.salil.widgets.SMWorkGridButton
+                    android:id="@+id/work_manilla_button"
+                    android:src="@drawable/manillaicon"
+                    style="@style/SMGridButton"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

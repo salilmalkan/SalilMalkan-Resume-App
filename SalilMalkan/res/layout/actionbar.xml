@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:background="@android:color/black" >
+
+    <TextView
+        android:id="@+id/actionbar_backarrow"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:paddingBottom="4dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="4dp"
+        android:text=" « "
+        android:textColor="@android:color/white"
+        android:textSize="24dp"	 />
+
+    <TextView
+        android:id="@+id/actionbar_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/actionbar_backarrow"
+        android:text="Salil Malkan"
+        android:textColor="@android:color/white"
+        android:textSize="24dp" />
+
+</RelativeLayout>

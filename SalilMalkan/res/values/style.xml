@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="SMAppLayoutTheme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="SMMenuButton">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">72dp</item>
+        <item name="android:textSize">28dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+
+    <style name="SMContactButton" parent="SMMenuButton">
+        <item name="android:layout_height">64dp</item>
+    </style>
+    
+    <style name="SMGridButton">
+        <item name="android:layout_width">128dp</item>
+        <item name="android:layout_height">128dp</item>
+        <item name="android:textSize">28dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="SMGridRow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="SMTimelineConnection">
+        <item name="android:layout_width">4dp</item>
+        <item name="android:layout_height">400dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginLeft">17dp</item>
+        <item name="android:background">@color/timeline_grey</item>
+    </style>
+
+    <style name="SMTimelineCircle">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="SMTimelineYearsText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+</resources>

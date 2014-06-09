@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="6dp"
+    android:orientation="horizontal" >
+
+    <View
+        android:id="@+id/topbar_pink_view"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@drawable/pink" />
+
+    <View
+        android:id="@+id/topbar_blue_view"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@drawable/blue" />
+
+    <View
+        android:id="@+id/topbar_green_view"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@drawable/green" />
+
+</LinearLayout>

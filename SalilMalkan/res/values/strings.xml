@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SalilMalkan</string>
+    <!-- Wakanow -->
+    <string name="wakanow">Wakanow</string>
+    <string name="wakanow_app_description">This app allows users to purchase plane tickets from Wakanow, a Nigerian travel agency.</string>
+    <string name="wakanow_app_responsibilities">I developed this app with a team of three other developers. My primary responsibility was making the user interface.</string>
+    <string name="wakanow_app_link">com.appek.wakanow</string>
+    <!--  ReferLocal iOS -->
+    <string name="referlocalios">Referlocal iOS</string>
+    <string name="referlocalios_app_description">This app allows iPhone users to purchase deals for local businesses from Referlocal.</string>
+    <string name="referlocalios_app_responsibilities">I developed the first version of this app with a team of me, myself, and I. In addition to development my responsibilities included managing the project schedule &amp; timeline, as well as interfacing with the client on a weekly basis.</string>
+    <string name="referlocalios_app_link">http://itunes.apple.com/us/app/referlocal/id495246429?mt=8</string>
+    <!-- ReferLocal Android -->
+    <string name="referlocalandroid">Referlocal Android</string>
+    <string name="referlocalandroid_app_description">This app allows Android users to purchase deals for local businesses from Referlocal.</string>
+    <string name="referlocalandroid_app_responsibilities">I developed the first version of this app with one other developer. In addition to development my responsibilities included managing the project schedule &amp; timeline, as well as interfacing with the client on a weekly basis.</string>
+    <string name="referlocalandroid_app_link">com.appekapps.referlocal</string>
+    <!-- VYTL -->
+    <string name="vytl">VYTL Android</string>
+    <string name="vytl_app_description">This app allows Android users to keep in touch with their business contacts.</string>
+    <string name="vytl_app_responsibilities">I developed the first version of this app with one other developer. In addition to development my responsibilities included managing the project schedule &amp; timeline, as well as interfacing with the client and API team on a weekly basis.</string>
+    <string name="vytl_app_link">com.vytl</string>
+    <!-- GTBank -->
+    <string name="gtbank">GTBank</string>
+    <string name="gtbank_app_description">This app allows GTBank customers to manage their bank account from their iPhone.</string>
+    <string name="gtbank_app_responsibilities">I developed this app with three other developer. My primary responsibility was making custom widgets and developing the user interface. This project has not yet been released.</string>
+    <string name="gtbank_app_link"></string>
+    <!-- Minigrip -->
+    <string name="minigrip">Minigrip</string>
+    <string name="minigrip_app_description">This app allows Android users to browser the Minigrip reclosable bag catalog.</string>
+    <string name="minigrip_app_responsibilities">I developed this app with a team of me, myself, and I. I was also responsible for providing mentorship to our summer intern who was developing the iPhone version.</string>
+    <string name="minigrip_app_link">com.appekapps.minigrip</string>
+    <!-- Row Row Row Remote -->
+    <string name="rowrowrow">Row Row Row Remote</string>
+    <string name="rowrowrow_app_description">This was a personal project I developed in my free time with a friend. It is a canoe racing video game that is played on your computer, but controlled with your smart phone. The game is meant to be played with large groups of people.</string>
+    <string name="rowrowrow_app_responsibilities">I was primarily responsible for developing the server for this game as well as the web client which players use to control their canoes.</string>
+    <string name="rowrowrow_app_link">http://rowrowrowremote.com</string>
+    <!-- Pathmapp -->
+	<string name="pathmapp">Pathmapp</string>
+    <string name="pathmapp_app_description">Pathmapp is a visual analytics platform for helping app owners see how users are interacting with their apps through the use of heatmaps. This project has not yet been released.</string>
+    <string name="pathmapp_app_responsibilities">I was primarily responsible for research and prototyping in this project.</string>
+    <string name="pathmapp_app_link"></string>
+    <!-- French Girls -->
+	<string name="frenchgirls">French Girls</string>
+    <string name="frenchgirls_app_description">French Girls is an app where strangers anonymously draw portraits based on selfies you have posted.</string>
+    <string name="frenchgirls_app_responsibilities">I helped develop the first version of the app, helped with the product idea and design, and helped with user and media outreach</string>
+    <string name="frenchgirls_app_link">https://itunes.apple.com/us/app/id607904602?mt=8</string>
+    <!-- Manilla -->
+	<string name="manilla">Manilla</string>
+    <string name="manilla_app_description">Manilla is a personal finance app that let users keep track of upcoming bills, financial documents, and track their expenses.</string>
+    <string name="manilla_app_responsibilities">I was responsible for development of our Android app, but I also worked simultaneously on the product team.</string>
+    <string name="manilla_app_link"></string>
+    
+    <!-- Timeline Point 1 -->
+    <string name="timelinepoint1_year">1989</string>
+    <string name="timelinepoint1_text">On August 18, 1989 I was born in Pune, India. Little did I know it then, but that was the beginning of a fantastic journey.</string>
+    <!-- Timeline Point 2 -->
+    <string name="timelinepoint2_year">1992</string>
+    <string name="timelinepoint2_text">When I was three years old my parents decided to move the United States. I didn\'t really understand what that meant at the time; I was excited just for to fly in a plane.</string>
+    <!-- Timeline Point 3 -->
+    <string name="timelinepoint3_year">1998</string>
+    <string name="timelinepoint3_text">When I was nine my parents bought our first family computer, an iMac G3. I thought it was the coolest thing ever and spent all of my time on it. We didn\'t even have an internet connection.</string>
+    <!-- Timeline Point 4 -->
+    <string name="timelinepoint4_year">2003</string>
+    <string name="timelinepoint4_text">In my first year of high school I went over to a friend\'s house and he showed me a video game he had made on his PC. It blew my mind. I want to learn how to do <i>that</i> I said.</string>
+    <!-- Timeline Point 5 -->
+    <string name="timelinepoint5_year">2007</string>
+    <string name="timelinepoint5_text">This was the year I graduated high school and moved away to college. Naturally, I became a computer science major. </string>
+    <!-- Timeline Point 6 -->
+    <string name="timelinepoint6_year">2011</string>
+    <string name="timelinepoint6_text">A week after graduating from college I accepted my first job and finally got paid to do what had previously just been a hobby.</string>
+    <!-- Timeline Point 7 -->
+    <string name="timelinepoint7_year">2013</string>
+    <string name="timelinepoint7_text">I moved to San Francisco and started everything all over. It\'s been nothing but an adventure.</string>
+    <!-- Timeline Point 8 -->
+    <string name="timelinepoint8_year">2014</string>
+    <string name="timelinepoint8_text">I wonder what could be next. Maybe <i>you</i> could help me figure that out?</string>
+    <!-- Contact Strings -->
+    <string name="call_alert_title">Call Me</string>
+    <string name="call_alert_string">I hope you\'re enjoying this little app I made for you. Give me a call at 415 400 6557 and let me know what you think.</string>
+    <string name="call_intent_string">tel: 4154006557</string>
+    <string name="email">salilmalkan@gmail.com</string>
+    <string name="email_alert_title">Email Me</string>
+    <string name="email_subject">Hi Salil! We\'d love to talk to you!</string>
+    <string name="email_body">Hi Salil,\n\nWe\'re impressed with your development background and the products you\'ve built. We would love to chat with you about some career oppurtunities with us. </string>
+    <string name="hire_me_now">Hire Me Now</string>
+    <string name="hire_subject">Screw it. We\'ll just hire you now.</string>
+    <string name="hire_body">Hi Salil,\n\nWe\'ve never hired anyone like this before, but screw it. We checked you out and we\'re convinced. We\'re ready to just hire you now.</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sm="http://schemas.android.com/apk/res/com.salil"
+    style="@style/SMAppLayoutTheme"
+    android:orientation="vertical"
+    android:background="@drawable/bg2">
+
+    <com.salil.widgets.SMTopbar
+        android:id="@+id/smtopbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <com.salil.widgets.SMActionbar
+        android:id="@+id/smactionbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/menu_work_button"
+            style="@style/SMMenuButton"
+            android:background="@drawable/pink"
+            android:text="Work" />
+
+        <Button
+            android:id="@+id/menu_timeline_button"
+            style="@style/SMMenuButton"
+            android:background="@drawable/blue"
+            android:text="Timeline" />
+
+        <Button
+            android:id="@+id/menu_contact_button"
+            style="@style/SMMenuButton"
+            android:background="@drawable/green"
+            android:text="Contact" />
+
+        <RelativeLayout
+            android:id="@+id/menu_logo_container"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:textSize="96dp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:text="SM" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

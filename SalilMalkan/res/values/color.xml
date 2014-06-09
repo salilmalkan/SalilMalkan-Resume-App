@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pink">#E73C40</color>
+    <color name="blue">#1F93DC</color>
+    <color name="orange">#F99949</color>
+    <color name="green">#8ED126</color>
+    <color name="transparent_white">#EEFFFFFF</color>
+    <color name="timeline_grey">#B2B2B2</color>
+    <color name="timeline_blue">#00A3C7</color>
+    <color name="timeline_blue2">#0010A5</color>
+    <color name="timeline_green">#0FAD00</color>
+    <color name="timeline_orange">#FF9400</color>
+    <color name="timeline_purple">#C5007C</color>
+    <color name="timeline_red">#FF0000</color>
+    <color name="timeline_yellow">#FEC500</color>
+    <color name="timeline_lightgreen">#9DCC00</color>
+</resources>
